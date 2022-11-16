@@ -1,0 +1,31 @@
+.all{
+    direction: rtl;
+}
+.kadr{
+    background-color: #adb5bd;
+    opacity: 0.9;
+}
+@media (min-width: 1200px){
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 98% !important;
+    }
+}
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 98% !important;
+    }
+}
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 98% !important;
+    }
+}
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 98% !important;
+    }
+}
+.txt{
+    color: white;
+    text-shadow: 1px 1px 5px #000000;
+}
